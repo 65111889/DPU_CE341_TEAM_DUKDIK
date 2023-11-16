@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    
 <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
-    <button onclick="funcAlert()">Alert Box</button>
-  <script>function funcAlert() {
-      alert("I'm Sunny Cradle, the cat!");
-  }</script>
+    <div class="box">
+        <a href="#popup-box"> 
+            <button type="button">แสดงรูปภาพสมาชิก !!</button>
+        </a>
+        <a href="#popup-box2"> 
+            <button type="button">แสดง IP !!</button>
+        </a>
+        <a href="#popup-box3"> 
+            <button type="button">ย้อนกลับ !!</button>
+        </a>
+    </div>
+
+    <div id="popup-box" class="modal">
+        <div class="content">
+            <img src="pic/1.jpg" class="center"><br>
+            <img src="pic/2.jpg" class="center">
+            <a href="#" class="box-close">×</a>
+        </div>
+    </div>
+
+    <div id="popup-box2" class="modal">
+        <div class="content">
+            <p id="ip-address"></p>
+            <a href="#" class="box-close">×</a>
+        </div>
+    </div>
 </body>
 </html>
