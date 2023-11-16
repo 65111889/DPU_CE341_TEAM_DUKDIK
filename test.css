@@ -1,0 +1,94 @@
+/* _________________popup____________________ */
+.box {
+    background-image:  url('https://wallpaperxyz.com/wp-content/uploads/Gif-Animated-Wallpaper-Background-Full-HD-Free-Download-for-PC-Macbook-261121-Wallpaperxyz.com-38.gif');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    
+}
+p {
+    font-size: 17px;
+    align-items: center;
+}
+
+.box a {
+    display: block;
+    background-color: hsl(0, 0%, 21%);
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.modal {
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(67, 62, 62, 0.7);
+    transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.content {
+    position: absolute;
+    background: rgb(200, 117, 245);
+    width: 250px;
+    padding: 1em 2em;
+    border-radius: 4px;
+    opacity: 0.9;
+} 
+
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.box-close {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #fe0606;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/* _________________button____________________ */
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #efe974;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #8e8e3e}
+  
+  .button:active {
+    background-color: #c9cf55;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
