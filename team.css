@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 body{
     background-color: rgb(61, 61, 61);
@@ -22,4 +23,26 @@ h1{
 }
 .member :hover{
     color: aliceblue;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+body{
+    background-color: rgb(61, 61, 61);
+
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.member{
+    color: rgb(300, 300, 300);
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+.member :hover{
+    color: aliceblue;
+>>>>>>> 801b8ccd459e9b6320c2f0c244d5ebf05e6d20c1
 }
