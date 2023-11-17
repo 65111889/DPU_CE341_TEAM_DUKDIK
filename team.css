@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 body{
     background-color: rgb(61, 61, 61);
@@ -23,7 +23,7 @@ h1{
 }
 .member :hover{
     color: aliceblue;
-=======
+=========
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 body{
     background-color: rgb(61, 61, 61);
@@ -44,5 +44,5 @@ h1{
 }
 .member :hover{
     color: aliceblue;
->>>>>>> 801b8ccd459e9b6320c2f0c244d5ebf05e6d20c1
+>>>>>>>>> Temporary merge branch 2
 }
